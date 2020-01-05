@@ -1,0 +1,26 @@
+<div class="container"> 
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#diary">Diary</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+
+<form>  
+    <div class="form-group"> 
+      <h1 id="everydaylist" >EveryDay TODO List
+      </h1>  
+      <div class="input-group-prepend">      
+         <input type="text" #todo class="form-control" placeholder="Add Todo" name="todo" ngModel>
+         <span class="input-group-text" (click)="addTodo(todo.value)" >+</span>
+      </div>  
+    </div> 
+</form>
+</div>
+
+<div class="data">  
+  <ul class="list-instyled">  
+   <li *ngFor="let todo of todoArray">{{todo}}
+   </li>  
+  </ul>  
+</div>
