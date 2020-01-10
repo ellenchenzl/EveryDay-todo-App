@@ -74,10 +74,9 @@ form .input-group-text{
     left: 10px;
     top: 68px;
     cursor: pointer;
-    position: absolute;
-    left:825px;
-    right:30px;
-    top:130px;
+    position: center;
+
+
 }
 
 form.form-control{
