@@ -12,4 +12,26 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+
+   todoArray=[] ;
+
+   todo;
+
+   addTodo(value){    
+   if (value !=""){
+   		this.todoArray.push(value)  
+   		}
+   else{
+   		alert(" List cannot be Empty!")
+   		}
+   }
+
+   deleteItem(todo){
+  		for(let i=0;i<todo.length;i++){
+  			if (todo == this.todoArray[i]){
+
+  			this.todoArray.splice(i,1)	
+  			}
+  		} 
+   } 
 }
