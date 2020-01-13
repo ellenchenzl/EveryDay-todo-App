@@ -11,7 +11,7 @@ import { DiaryComponent } from './diary/diary.component';
 
 const appRoutes:Routes=[
   {path:'App',component: AppComponent}, 
-  {path:'Diary',component:DiaryComponent},
+  {path:'Diary',component: DiaryComponent},
   ];
 
 @NgModule({

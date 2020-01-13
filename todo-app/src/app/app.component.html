@@ -1,11 +1,12 @@
 <div class="container"> 
-  <ul>
-    <li><a routerLink="/App" routerLinkActive="active">Home</a></li>
-    <li><a routerLink="/Diary" routerLinkActive="active">Diary</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
-  </ul>
-<form>  
+  
+  <a [routerLink]="['/App']" routerLinkActive="active">Home</a>
+  <a [routerLink]="['/Diary']"routerLinkActive="active">Diary</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <router-outlet> </router-outlet>
+
+  <form>  
     <div class="form-group"> 
       <h1 id="everydaylist" >EveryDay Todo List
       </h1>  
@@ -13,20 +14,21 @@
       Keep going on and make some progress
       </h2>
       <div>      
-         <input type="text" #todo class="form-control" placeholder="Add Todo" name="todo" ngModel><span class="input-group-text" (click)="addTodo(todo.value)">+</span>
-
-
+        <input type="text" #todo class="form-control" placeholder="Add Todo" name="todo" ngModel>
+        <span class="input-group-text" (click)="addTodo(todo.value)">+</span>
       </div>  
     </div> 
-</form>
+  </form>
+  
 </div>
-<form>
-<div class="data">  
-  <ul class="list-instyled">  
-   <li id="whatuneedtodo"*ngFor="let todo of todoArray">{{todo}}
-   <i (click)="deleteItem(todo)" class="material-icons">delete_forever</i>
- </li>
 
-  </ul>  
-</div>
+<form>
+  <div class="data">  
+    <ul class="list-instyled">  
+       <li id="whatuneedtodo"*ngFor="let todo of todoArray">{{todo}}
+          <i (click)="deleteItem(todo)" class="material-icons">delete_forever
+          </i>
+        </li>
+    </ul>  
+  </div>
 </form>
