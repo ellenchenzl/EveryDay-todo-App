@@ -11,7 +11,8 @@ import { HomeComponent } from './home/home.component';
 
 
 const appRoutes:Routes=[
-  {path:'App',component: AppComponent}, 
+  {path:'App',component: AppComponent},
+  {path:'Home',component: HomeComponent}, 
   {path:'Diary',component: DiaryComponent},
   ];
 

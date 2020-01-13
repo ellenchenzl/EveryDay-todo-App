@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Cute+Font&display=swap');
+
+body{ 
+	padding: 0; 
+	margin: 0;
+	}
+form{ 
+	max-width: 25em; 
+	margin: 1em 
+	auto;}
+
+ul
+{
+margin:0;
+padding:0;
+padding-top:6px;
+padding-bottom:6px;
+}
+li
+{
+display:inline;
+}
+a:link,a:visited
+{
+font-weight:bold;
+color:white;
+background-color:grey;
+text-align:center;
+padding:6px;
+font-family: 'Cute Font', cursive;
+font-size: 30px;
+text-transform:uppercase;
+}
+
+a:hover,a:active
+{
+background-color:orange;
+}
+
+#everydaylist{
+	color:orange;
+	font-size:30px;
+	text-align: center ;
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+#encouragewords{
+	color :grey;
+	font-size: 10px;
+	text-align: right;
+	font-family: 'Ibarra Real Nova', serif;
+}
+
+#whatuneedtodo{
+	display:block;
+	font-family: 'Cute Font', cursive;
+    font-size: 30px;
+    color:white;
+	background-color:#bcbec1;
+	background-size: 35px;
+	text-align: center;
+	height: 1.5em;
+}
+
+form .input-group-text{
+	display: flex;
+    background: #F97300;
+    border-radius: 50%;
+    width: 2em;
+    height: 3em;
+    padding: 1em 23px;
+    color: black;
+    left: 10px;
+    top: 68px;
+    cursor: pointer;
+    position: center;
+
+
+}
+
+form.form-control{
+	font-size: 10px;
+
+}
+
+i.material-icons{
+	cursor: pointer;
+}
+
+
+
+
+
