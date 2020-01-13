@@ -6,6 +6,7 @@ import {RouterModule,Routes} from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DiaryComponent } from './diary/diary.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -17,7 +18,8 @@ const appRoutes:Routes=[
 @NgModule({
   declarations: [
     AppComponent,
-    DiaryComponent
+    DiaryComponent,
+    HomeComponent
   ],
   imports: [
     RouterModule.forRoot(
