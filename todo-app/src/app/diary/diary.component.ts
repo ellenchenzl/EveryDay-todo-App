@@ -10,6 +10,20 @@ export class DiaryComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  }
+	}
+
+	
+   todoArray=[] ;
+
+   todo;
+
+   addTodo(value){    
+   if (value !=""){
+   		this.todoArray.push(value)  
+   		}
+   else{
+   		alert(" List cannot be Empty!")
+   		}
+   }
 
 }
