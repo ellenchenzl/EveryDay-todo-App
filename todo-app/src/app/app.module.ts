@@ -23,19 +23,15 @@ const appRoutes:Routes=[
     AppComponent,
     HomeComponent,
     ContactComponent
-  
   ],
   imports: [
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
     ),
-  
     BrowserModule,
     AppRoutingModule,
-  
   ],
-
   providers: [],
   bootstrap: [AppComponent]
 })
