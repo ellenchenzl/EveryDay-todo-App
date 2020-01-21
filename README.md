@@ -27,7 +27,7 @@ Install npm
   
 Install Angular
 
-  *`npm install -g @angular/cli`
+  * `npm install -g @angular/cli`
   
 Run it local:
   * In file, run `ng serve`
