@@ -18,14 +18,15 @@ Using [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.2
 
 Installation
 --------
-* Run it local
-In terminal and in todo file, run `ng serve`, then navigated to http://localhost:4200/
-* Web Link
-https://determined-easley-b02089.netlify.com
+* Run it local:
+  In terminal and in todo file, run `ng serve`, then navigated to http://localhost:4200/
+* Web Link:
+  https://determined-easley-b02089.netlify.com
 
 More
 --------
-*How to publish to netlify
+How to publish to netlify:
+  Link netlify with your GitHub 
 
 Contributor
 --------
