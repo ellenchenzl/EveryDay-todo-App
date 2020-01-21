@@ -32,7 +32,7 @@ More
 
 Contributor
 --------
-[@ellenchenzl] (https://github.com/ellenchenzl)
+Zhuoling Chen (https://github.com/ellenchenzl)
 
 License 
 --------
