@@ -5,29 +5,32 @@
 What's Everyday-todo-App
 ---------
 This web application is for building to do list.
-* Typed any charateristics, and click the Add button, it will add the list item automaticlly.
-* Supported you deleted the item.
-* Prohibited the empty list
+* Type any charateristics
+* Clicked the Add button for adding the list item automaticlly
+* Support deleting function
+* Empty items will not be allowed
 
 ![image](https://github.com/ellenchenzl/EveryDay-todo-App/blob/master/appshow.gif )   
 
+
+* Publish to Netlify:
+https://determined-easley-b02089.netlify.com/
+
 Requirement 
 ----
-Using [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+[angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
 Installation
 --------
+Install npm
+  * [Get npm](https://www.npmjs.com/get-npm)
+  
 Install Angular in local
-  * Using `npm install -g @angular/cli`
+  *`npm install -g @angular/cli`
   
 Run it local:
   * In file, run `ng serve`
-  * navigated to http://localhost:4200/
-
-Publish to Netlify:
-  * Link Netlify with your GitHub 
-  * Build Command: `ng build --prod`
-  * Publish directory `./dist/todo-app`
+  * navigate to http://localhost:4200/ 
 
 License 
 --------
