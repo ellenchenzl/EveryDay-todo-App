@@ -1,23 +1,30 @@
-EverdayTodoList
-========================
 
-*****
+[![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
+
+
+-------
 
 |Author| Zhuoling Chen|
 |---|---
-|E-mail| estrangementellen@gmail|
 
 ----
-The web Link 
-https://determined-easley-b02089.netlify.com
+What's Everyday-todo-App
+---------
+This web application is to build a everyday todo list.
 
-----
-#Introduction
+Why Everyday-todo-App
+In the home page, when you can type any charateristics, and click the Add button, it will add the list item automaticlly.
+It also supported you deleted the item.
 
-This web application is to build a everyday todo list
+Requirement 
 
-*****
-#How to run it
-In terminal and in to do file, run `ng serve`, then the navigate to http://localhost:4200/
+Installation
+--------
+* Run it local
+In terminal and in todo file, run `ng serve`, then navigated to http://localhost:4200/
+*
 #Push on Netlify
+--------
+
 #Contributor
+--------
