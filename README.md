@@ -9,7 +9,7 @@ This web application is for building to do list.
 * Supported you deleted the item.
 * Prohibited the empty list
 
-
+![image](https://github.com/ellenchenzl/EveryDay-todo-App/blob/master/appshow.gif )   
 
 Requirement 
 ----
