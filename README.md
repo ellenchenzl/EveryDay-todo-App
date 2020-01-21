@@ -21,17 +21,17 @@ Installation
 * Run it local:
   In terminal and in todo file, run `ng serve`, then navigated to http://localhost:4200/
 * Web Link:
-  https://determined-easley-b02089.netlify.com
-
+  [@StupidTodo](https://determined-easley-b02089.netlify.com)
+  
 More
 --------
-How to publish to netlify:
+#How to publish to netlify:
   Link netlify with your GitHub 
 
 Contributor
 --------
-Zhuoling Chen
+[@Zhuoling Chen] (https://github.com/ellenchenzl)
 
 License 
 --------
-[Apache 2.0](LICENSE) 
+Apache 2.0
