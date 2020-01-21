@@ -27,10 +27,12 @@ More
 --------
 #How to publish to netlify:
   Link netlify with your GitHub 
+  Build Command: ng build --prod
+  Publish directory ./dist/todo-app
 
 Contributor
 --------
-[@Zhuoling Chen] (https://github.com/ellenchenzl)
+[@ellenchenzl] (https://github.com/ellenchenzl)
 
 License 
 --------
