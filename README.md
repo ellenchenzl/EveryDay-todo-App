@@ -9,12 +9,14 @@ This web application is for building to do list.
 * Clicked the Add button for adding the list item automaticlly
 * Support deleting function
 * Empty items will not be allowed
+* Publish to Netlify:
+https://determined-easley-b02089.netlify.com/
+
 
 ![image](https://github.com/ellenchenzl/EveryDay-todo-App/blob/master/appshow.gif )   
 
 
-* Publish to Netlify:
-https://determined-easley-b02089.netlify.com/
+
 
 Requirement 
 ----
