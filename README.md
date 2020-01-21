@@ -25,7 +25,8 @@ Installation
 Install npm
   * [Get npm](https://www.npmjs.com/get-npm)
   
-Install Angular in local
+Install Angular
+
   *`npm install -g @angular/cli`
   
 Run it local:
