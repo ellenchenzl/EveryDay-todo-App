@@ -1,30 +1,36 @@
 
 [![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
 
-
--------
-
-|Author| Zhuoling Chen|
-|---|---
-
 ----
 What's Everyday-todo-App
 ---------
 This web application is to build a everyday todo list.
 
-Why Everyday-todo-App
-In the home page, when you can type any charateristics, and click the Add button, it will add the list item automaticlly.
-It also supported you deleted the item.
+How it Works
+--------
+* Typed any charateristics, and click the Add button, it will add the list item automaticlly.
+* Supported you deleted the item.
+* Prohibited the empty list
 
 Requirement 
+----
+Using [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
 Installation
 --------
 * Run it local
 In terminal and in todo file, run `ng serve`, then navigated to http://localhost:4200/
-*
-#Push on Netlify
---------
+* Web Link
+https://determined-easley-b02089.netlify.com
 
-#Contributor
+More
 --------
+*How to publish to netlify
+
+Contributor
+--------
+Zhuoling Chen
+
+License 
+--------
+[Apache 2.0](LICENSE) 
