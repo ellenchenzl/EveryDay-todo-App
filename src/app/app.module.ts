@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {RouterModule,Routes} from '@angular/router';
+import { RouterModule,Routes} from '@angular/router';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,7 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 
 
 const appRoutes:Routes=[
-  {path:'',redirectTo:'/home',pathMatch:'full'},
+  {path:'',redirectTo:'Home',pathMatch:'full'},
   {path:'Home',component: HomeComponent}, 
   {path:'Contact',component: ContactComponent},
  

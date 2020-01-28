@@ -27,11 +27,18 @@ export class HomeComponent implements OnInit {
    }
 
    deleteItem(todo){
-  		for(let i=0;i<todo.length;i++){
-  			if (todo == this.todoArray[i]){
+     console.log(typeof todo)
+     console.log('todo', todo)
+     console.log('todo.length', todo.length)
 
-  			this.todoArray.splice(i,1)	
+  		for(let i=0;i<todo.length;i++){
+        console.log('in for loop and current i =',i)
+  			if (todo == this.todoArray[i]){
+          console.log('if (todo == this.todoArray[i]){')
+  			  this.todoArray.splice(i,1)
   			}
-  		} 
+        console.log('end of i =',i)
+  		}
+      console.log('End of deleteItem')
    } 
 }
