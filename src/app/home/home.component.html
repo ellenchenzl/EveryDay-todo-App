@@ -23,10 +23,15 @@
 <form>
   <div class="data">  
     <ul class="list-instyled">  
-       <li id="whatuneedtodo"*ngFor="let todo of todoArray let todo=index">{{todo}}
-          <i (click)="deleteItem(todo)" class="material-icons">delete_forever
+       <li id="whatuneedtodo"*ngFor="let todo of todoArray">{{todo}}
+          <i (click)="deleteItem(todo.index)" class="material-icons">delete_forever
           </i>
         </li>
     </ul>  
   </div>
 </form>
+
+
+
+
+<p> Copyright &copy 2020 ZhuolingChen</p>>
