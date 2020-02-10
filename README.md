@@ -1,8 +1,6 @@
-
+What's Everyday-todo-App
 ![GitHub top language](https://img.shields.io/github/languages/top/ellenchenzl/EveryDay-todo-App)     ![GitHub last commit](https://img.shields.io/github/last-commit/ellenchenzl/EveryDay-todo-App)      [![Netlify Status](https://api.netlify.com/api/v1/badges/9448652b-f779-4c0e-9830-7390514f5e6f/deploy-status)](https://app.netlify.com/sites/determined-easley-b02089/deploys) 
 
-----
-What's Everyday-todo-App
 ---------
 This web application is for building to do list.
 * Type any charateristics
