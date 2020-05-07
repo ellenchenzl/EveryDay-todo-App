@@ -11,7 +11,7 @@ This web application is for building to do list.
 * Support deleting function
 * Empty items will not be allowed
 * Publish to Netlify:
-https://determined-easley-b02089.netlify.com/
+https://determined-easley-b02089.netlify.app/
 
 
 ![image](https://github.com/ellenchenzl/EveryDay-todo-App/blob/master/appshow.gif )   
